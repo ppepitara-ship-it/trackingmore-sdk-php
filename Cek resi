@@ -1,0 +1,3 @@
+$couriers = new TrackingMore\Couriers('your api key');
+$params = ['tracking_number'=>'92612903029511573030094531'];
+$response = $couriers->detect($params);
